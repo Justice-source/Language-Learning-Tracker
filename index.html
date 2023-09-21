@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Language Learning Tracker</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <h1>Language Learning Tracker</h1>
+    <h4><i>Developed by: Riopt</i></h4>
+    <div class="card">
+      <div id="language-selector">
+        <label for="language">Select a Language:</label>
+        <select id="language">
+          <option value="russian">Russian</option>
+          <option value="french">French</option>
+          <option value="japanese">Japanese</option>
+          <option value="korean">Korean</option>
+          <option value="chinese">Chinese</option>
+          <option value="german">German</option>
+          <option value="italian">Italian</option>
+          <option value="portuguese">Portuguese</option>
+          <option value="spanish">Spanish</option>
+          <option value="turkish">Turkish</option>
+          <option value="vietnamese">Vietnamese</option>
+          <option value="indonesia">Indonesian</option>
+          <option value="others">Others</option>
+        </select>
+      </div>
+      <div id="progress-form">
+        <label for="study-hours">Daily Study Hours:</label>
+        <input type="number" id="study-hours" />
+        <label for="proficiency">Proficiency Level:</label>
+        <select id="proficiency">
+          <option value="0">0. No Proficiency</option>
+          <option value="1">1. Elementary Proficiency</option>
+          <option value="2">2. Limited Working Proficiency</option>
+          <option value="3">3. Professional Working Proficiency</option>
+          <option value="4">4. Full Professional Proficiency</option>
+          <option value="5">5. Native / Bilingual Proficiency</option>
+        </select>
+        <button id="add-progress">Add Progress</button>
+        <h3>Language Progress:</h>
+      </div>
+      <div id="language-progress">
+        <!-- Language progress will be displayed here -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+
+    
+  </body>
+</html>
