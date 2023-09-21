@@ -173,5 +173,5 @@ function updateLanguageProgress() {
 
 ## Link to the website:
 
-- Deployed site: [Language Learning Tracker App](https://ajayfaul-js-intermediate-bounty-app.netlify.app)
+-  [Language Learning Tracker App](https://riopt-js-intermediate-bounty.web.app/)
 
